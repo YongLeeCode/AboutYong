@@ -39,3 +39,5 @@ function lifeTable(item)
 
     document.querySelector(".lifeTable").appendChild(tr);
 }
+
+document.querySelector("#tableButton")
