@@ -1,0 +1,14 @@
+@media (max-width: 60rem) {
+  main,
+  footer {
+    max-width: 64rem;
+    margin: auto;
+  }
+
+  .content {
+    height:30vh;
+  }
+  h1 {
+    font-size:30px;
+  }
+}

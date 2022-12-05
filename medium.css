@@ -1,0 +1,12 @@
+@media (max-width: 60rem) {
+    .waves {
+      height:45px;
+      min-height:45px;
+    }
+    .content {
+      height:30vh;
+    }
+    h1 {
+      font-size:30px;
+    }
+  }

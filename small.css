@@ -1,0 +1,32 @@
+@media (max-width: 40rem) {
+    .waves {
+      height:40px;
+      min-height:40px;
+    }
+    .content {
+      height:60vh;
+    }
+
+    /* homepage image */
+    .box {
+      padding: 20px;
+    }
+    img{
+      height: 150px;
+      width: 120px;
+      margin-top: -50px;
+    }
+    .pull {position:relative; 
+      margin: 20px; 
+      padding: 20px; 
+      width:50px; 
+      height:40px; 
+      color: #FFF; 
+      border-radius: 10px; 
+      background-color: #000;
+      top: -100px;
+    }
+    
+  }
+
+
