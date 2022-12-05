@@ -16,28 +16,28 @@ getLife(requestURL);
 
 function lifeTable(item)
 {
-    let tr = document.createElement("tr");
-    let tdAge = document.createElement("td");
-    let tdPlace = document.createElement("td");
-    let tdYear = document.createElement("td");
-    let tdScipture = document.createElement("td");
-    let tdImg = document.createElement("img");
+    let section = document.createElement("section");
+    let pAge = document.createElement("p");
+    let pPlace = document.createElement("p");
+    let pYear = document.createElement("p");
+    let pScripture = document.createElement("p");
+    let img = document.createElement("img");
     
-    tdAge.textContent = item.age;
-    tdPlace.textContent = item.place;
-    tdYear.textContent = item.year;
-    tdScipture.textContent = item.scripture;
-    tdImg.textContent = item.img;
+    pAge.textContent = item.age;
+    pPlace.textContent = item.place;
+    pYear.textContent = item.year;
+    pScripture.textContent = item.scripture;
+    img.textContent = item.img;
 
-    tdWebsite.href = item.website;  // Add the link to it 
+    pWebsite.href = item.website;  // Add the link to it 
 
-    tr.appendChild(tdAge);
-    tr.appendChild(tdPlace);
-    tr.appendChild(tdYear);
-    tr.appendChild(tdScipture);
-    tr.appendChild(tdimg);
+    img.setAttribute('src', item.img);
+     
+    section.appendChild(pAge);
+    section.appendChild(pPlace);
+    section.appendChild(pYear);
+    section.appendChild(pScripture);
+    section.appendChild(img);
 
-    document.querySelector(".lifeTable").appendChild(tr);
+    document.querySelector(".lifeTable").appendChild(section);
 }
-
-document.querySelector("#tableButton")
