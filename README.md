@@ -1,5 +1,5 @@
 # AboutYong
 
 # source
- * [website](file:///C:/Users/dydgh/Documents/YongLeeCode/AboutYong/biography/mylife.html)
+ * [website](https://github.com/YongLeeCode/AboutYong.github.io.git)
  * [git](https://github.com/YongLeeCode/aboutyong)
