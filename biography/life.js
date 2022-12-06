@@ -8,7 +8,6 @@ async function getLife(requestURL){
         console.log(jsonObject);
         const life = jsonObject['life'];
         life.forEach(lifeTable);
-        life.forEach(lifeCard);
     }
 };
 
@@ -16,28 +15,25 @@ getLife(requestURL);
 
 function lifeTable(item)
 {
-    let section = document.createElement("section");
-    let pAge = document.createElement("p");
-    let pPlace = document.createElement("p");
-    let pYear = document.createElement("p");
-    let pScripture = document.createElement("p");
+    let tr = document.createElement("tr");
+    let tdAge = document.createElement("td");
+    let tdPlace = document.createElement("td");
+    let tdYear = document.createElement("td");
+    let tdScripture = document.createElement("td");
     let img = document.createElement("img");
     
-    pAge.textContent = item.age;
-    pPlace.textContent = item.place;
-    pYear.textContent = item.year;
-    pScripture.textContent = item.scripture;
+    tdAge.textContent = item.age;
+    tdPlace.textContent = item.place;
+    tdYear.textContent = item.year;
+    tdScripture.textContent = item.scripture;
     img.textContent = item.img;
-
-    pWebsite.href = item.website;  // Add the link to it 
 
     img.setAttribute('src', item.img);
      
-    section.appendChild(pAge);
-    section.appendChild(pPlace);
-    section.appendChild(pYear);
-    section.appendChild(pScripture);
-    section.appendChild(img);
+    tr.appendChild(tdAge);
+    tr.appendChild(tdPlace);
+    tr.appendChild(tdYear);
+    tr.appendChild(tdScripture);
 
-    document.querySelector(".lifeTable").appendChild(section);
+    document.querySelector(".lifeTable").appendChild(tr);
 }
