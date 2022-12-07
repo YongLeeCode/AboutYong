@@ -1,0 +1,26 @@
+.icons{
+    display: inline;
+}
+
+.contact{
+    display: grid;
+}
+
+.phone{
+    display: flex;
+    margin: 40px;
+}
+
+.email{
+    display: flex;
+    margin: 40px;
+}
+
+.icons i{
+    margin: 50px;
+}
+
+.words{
+    margin-left: 30px;
+    font-size: 30px;
+}
