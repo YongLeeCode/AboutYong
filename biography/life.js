@@ -13,27 +13,24 @@ async function getLife(requestURL){
 
 getLife(requestURL);
 
-function lifeTable(item)
+function lifeCard(item)
 {
-    let tr = document.createElement("tr");
-    let tdAge = document.createElement("td");
-    let tdPlace = document.createElement("td");
-    let tdYear = document.createElement("td");
-    let tdScripture = document.createElement("td");
+    let card = document.createElement("section");
+    let period = document.createElement("h3");
+    let place = document.createElement("h4");
+    let scripture = document.createElement("h4");
     let img = document.createElement("img");
     
-    tdAge.textContent = item.age;
-    tdPlace.textContent = item.place;
-    tdYear.textContent = item.year;
-    tdScripture.textContent = item.scripture;
-    img.textContent = item.img;
-
     img.setAttribute('src', item.img);
-     
-    tr.appendChild(tdAge);
-    tr.appendChild(tdPlace);
-    tr.appendChild(tdYear);
-    tr.appendChild(tdScripture);
 
-    document.querySelector(".lifeTable").appendChild(tr);
+    period.textContent = item.age;
+    place.textContent = item.place;
+    scripture.textContent = item.scripture;
+     
+    card.appendChild(period);
+    card.appendChild(place);
+    card.appendChild(scripture);
+    card.appendChild(img);
+
+    document.querySelector(".lifeCard").appendChild(card);
 }
