@@ -1,8 +1,7 @@
-h3 {padding: 0; margin: 10;}
+h3 {padding: 0;}
 
 .date h3 {
     font-size: 1.5em;
-    margin: 5px;
 }
 
 .date p {
