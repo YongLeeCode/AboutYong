@@ -7,7 +7,7 @@ async function getLife(requestURL){
         const jsonObject = await response.json();
         console.log(jsonObject);
         const life = jsonObject['life'];
-        life.forEach(lifeTable);
+        life.forEach(lifeCard);
     }
 };
 
