@@ -1,8 +1,8 @@
 {
     "skill": [
       {
-        "name": "Kotlin in Android Studio",
-        "made": "-",
+        "name": "Android Studio(Kotlin Java)",
+        "made": "Funny Dating Game app",
         "class1": "CSE310 - Applied programming in BYU-Idaho",
         "class2": "CSE222B - Kotlin Language",
         "year": 2022,
@@ -11,50 +11,34 @@
       {
         "name": "Python",
         "made": "sudoku",
-        "class1": "CS 124",
-        "class2": "CS 241",
+        "class1": "CS 124 -Intro Software Development",
+        "class2": "CS 241 - Survey Obj-Ort Prog/Data",
         "year": 2019,
-        "image": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/brigham-young-82908-gallery.jpg"
+        "image": "../image/python.svg"
       },
       {
-        "name": "Kotlin in Android Studio",
-        "made": "-",
-        "class1": "CSE310 - Applied programming in BYU-Idaho",
+        "name": "Web(HTML,CSS,JS)",
+        "made": "commercial website / profile website",
+        "class1": "WDD130 - Web Fundamentals",
         "class2": "CSE222B - Kotlin Language",
         "year": 2022,
-        "image": "../image/kotlin.png"
+        "image": "../image/js.png"
       },
       {
-        "name": "Kotlin in Android Studio",
-        "made": "-",
-        "class1": "CSE310 - Applied programming in BYU-Idaho",
-        "class2": "CSE222B - Kotlin Language",
+        "name": "MySQL",
+        "made": "online shopping mall ERD",
+        "class1": "CIT111 - Introduction to Databases",
+        "class2": "CIT225 - Database Design & Develope",
         "year": 2022,
-        "image": "../image/kotlin.png"
+        "image": "../image/mysql.png"
       },
       {
-        "name": "Kotlin in Android Studio",
-        "made": "-",
+        "name": "Flutter",
+        "made": "Family Album app, Quiz master Game",
         "class1": "CSE310 - Applied programming in BYU-Idaho",
-        "class2": "CSE222B - Kotlin Language",
+        "class2": "",
         "year": 2022,
-        "image": "../image/kotlin.png"
-      },
-      {
-        "name": "Kotlin in Android Studio",
-        "made": "-",
-        "class1": "CSE310 - Applied programming in BYU-Idaho",
-        "class2": "CSE222B - Kotlin Language",
-        "year": 2022,
-        "image": "../image/kotlin.png"
-      },
-      {
-        "name": "Kotlin in Android Studio",
-        "made": "-",
-        "class1": "CSE310 - Applied programming in BYU-Idaho",
-        "class2": "CSE222B - Kotlin Language",
-        "year": 2022,
-        "image": "../image/kotlin.png"
+        "image": "../image/flutter.png"
       }
     ]
   }

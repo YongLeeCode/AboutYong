@@ -1,0 +1,33 @@
+h3 {padding: 0; margin: 10;}
+
+.date h3 {
+    font-size: 1.5em;
+    margin: 5px;
+}
+
+.date p {
+    font-size: .8em;
+  }
+
+.events {
+    border-left: 1px solid black;
+}
+
+.events-detail {
+    max-width: 550px;
+}
+
+.events-detail li{
+    padding: 10px;
+    border-bottom: 1px dashed black;
+    line-height: 22px;
+    transition: ease .4s all;
+  }
+
+.events-detail li:hover{
+    background: #FAEDCD;
+}
+
+li{
+    list-style:none;
+}
