@@ -28,20 +28,34 @@
 
 }
 
-.image_description {
+.left_image_description {
     position: relative;
     bottom: 0px;
     background-color: black;
     opacity: 1;
     width: 100%;
     border-radius: 10px 10px 10px 10px;
-    
-   
 }
-.image_description p {
+
+.right_image_description {
+    position: relative;
+    bottom: 0px;
+    background-color: black;
+    opacity: 1;
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.left_image_description p {
     color: white;
     padding: 20px;
 }
+
+.right_image_description p {
+    color: white;
+    padding: 20px;
+}
+
 @keyframes shine {
     from {
         background-position: -10%;
@@ -64,26 +78,43 @@
         
     }
 
-    .image_description {
-      display: none;
-  }
-  .image_description p {
-      color: black;
-      padding: 20px;
-  }
-  .image_container:hover .image_description {
+.left_image_description {
+    display: none;
+}
+.right_image_description {
+    display: none;
+}
+
+.left_image_description p {
+    color: black;
+    padding: 20px;
+}
+.right_image_description p {
+    color: black;
+    padding: 20px;
+}
+
+    .image_container:hover .left_image_description {
       display: block;
       position: absolute;
-      bottom: 0px;
+      left: 250px;
       background-color: #CCD5AE;
       opacity: 1;
       width: 100%;
       height: fit-content;
       border-radius: 10px 10px 10px 10px;
-  }
+    }
+    .image_container:hover .right_image_description {
+        display: block;
+        position: absolute;
+        right: 250px;
+        background-color: #CCD5AE;
+        opacity: 1;
+        width: 100%;
+        height: fit-content;
+        border-radius: 10px 10px 10px 10px;
+    }
 }
-
-
 
 
 
@@ -108,23 +139,42 @@
         flex-wrap: wrap;
     }
     .column {
-        width: 32.3%;
+        margin-left: 200px;
+        margin-right: 200px;
       
     }
-    .image_description {
+    .left_image_description {
         display: none;
     }
-    .image_description p {
+    .right_image_description {
+        display: none;
+    }
+    .left_image_description p {
         color: black;
         padding: 20px;
     }
-    .image_container:hover .image_description {
+    .right_image_description p {
+        color: black;
+        padding: 20px;
+    }
+    .image_container:hover .left_image_description {
         display: block;
         position: absolute;
         bottom: 0px;
         background-color: #CCD5AE;
         opacity: 1;
-        width: 80%;
+        width: 130%;
+        height: fit-content;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    .image_container:hover .right_image_description {
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        background-color: #CCD5AE;
+        opacity: 1;
+        width: 130%;
         height: fit-content;
         border-radius: 10px 10px 10px 10px;
     }
