@@ -78,6 +78,10 @@ p {
   text-align: center;
 }
 
+.topbarbutton a{
+  color: black;
+}
+
 .waves {
   position:relative;
   width: 100%;

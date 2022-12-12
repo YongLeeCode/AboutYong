@@ -39,6 +39,10 @@ p {
   margin-left: 10px;
 }
 
+.topbarbutton a{
+  color: black;
+}
+
   .inner-header {
     height:30vh;
     width:100%;
