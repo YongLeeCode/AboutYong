@@ -82,6 +82,10 @@ p {
   color: black;
 }
 
+.pull a{
+  color: #D4A373;
+}
+
 .waves {
   position:relative;
   width: 100%;
