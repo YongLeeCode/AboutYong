@@ -71,6 +71,9 @@ h4{
 
 
 @media screen and (min-width:400px) {
+    .loader{
+        margin:50px;
+    }
     .image_container:hover {
         transform: scale(1.1);
         transition: transform 330ms ease-in-out;
@@ -82,47 +85,59 @@ h4{
         
     }
 
-.left_image_description {
-    display: none;
-}
-.right_image_description {
-    display: none;
-}
+    .left_image_description {
+        display: none;
+    }
+    .right_image_description {
+        display: none;
+    }
 
-.left_image_description p {
-    color: black;
-    padding: 20px;
-}
-.right_image_description p {
-    color: black;
-    padding: 20px;
-}
+    .left_image_description p {
+        color: black;
+        padding: 20px;
+    }
+    .right_image_description p {
+        color: black;
+        padding: 20px;
+    }
 
     .image_container:hover .left_image_description {
-      display: block;
-      position: absolute;
-      left: 250px;
-      background-color: #CCD5AE;
-      opacity: 1;
-      width: 100%;
-      height: fit-content;
-      border-radius: 10px 10px 10px 10px;
-    }
-    .image_container:hover .right_image_description {
         display: block;
         position: absolute;
-        right: 250px;
+        bottom: 0px;
         background-color: #CCD5AE;
         opacity: 1;
         width: 100%;
         height: fit-content;
         border-radius: 10px 10px 10px 10px;
+        font-size: small;
+    }
+
+    .left_image_description p{
+        font-size: xx-small;
+    }
+    .right_image_description p{
+        font-size: xx-small;
+    }
+    .image_container:hover .right_image_description {
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        background-color: #CCD5AE;
+        opacity: 1;
+        width: 100%;
+        height: fit-content;
+        border-radius: 10px 10px 10px 10px;
+        font-size: small;
     }
 }
 
 
 
-@media  screen and (min-width:1100px) {
+@media  screen and (min-width:1400px) {
+    .loader{
+        margin:0px;
+    }
     main {
         grid-template-columns: 20% 1fr 20%;
         grid-template-rows: 1fr 1fr 1fr;
@@ -164,22 +179,32 @@ h4{
     .image_container:hover .left_image_description {
         display: block;
         position: absolute;
-        bottom: 0px;
+        left: 250px;
+        top: 25px;
         background-color: #CCD5AE;
         opacity: 1;
         width: 130%;
         height: fit-content;
         border-radius: 10px 10px 10px 10px;
+        font-size: large;
     }
 
     .image_container:hover .right_image_description {
         display: block;
         position: absolute;
-        bottom: 0px;
+        right: 250px;
+        top: 25px;
         background-color: #CCD5AE;
         opacity: 1;
         width: 130%;
         height: fit-content;
         border-radius: 10px 10px 10px 10px;
+        font-size: large;
+    }
+    .left_image_description p{
+        font-size: medium;
+    }
+    .right_image_description p{
+        font-size: medium;
     }
 }

@@ -1,4 +1,4 @@
-@media (max-width: 60rem) {
+@media scren and (min-width: 700px) {
     .waves {
       height:45px;
       min-height:45px;
@@ -8,5 +8,10 @@
     }
     h1 {
       font-size:30px;
+    }
+
+    span a{
+      font-size: medium;
+      margin-right: 30px;
     }
   }

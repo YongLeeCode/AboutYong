@@ -102,3 +102,9 @@
   section#timeline article div.inner h2:after {
     background: #CCD5AE;
   }
+
+  @media screen and (min-width: 400px) {
+    div.inner h1{
+      display: none;
+    }
+  }

@@ -1,14 +1,56 @@
-@media (max-width: 60rem) {
-  main,
-  footer {
-    max-width: 64rem;
-    margin: auto;
-  }
-
+@media screen and (min-width: 1100px) {
+  
   .content {
-    height:30vh;
+    height:20vh;
   }
   h1 {
-    font-size:30px;
+    font-size:40px;
+  }
+
+  /* logo */
+  div h1{
+    display: block;
+    margin-right: 400px;
+    margin-bottom:50px;
+  }
+
+
+  /* homepage */
+
+  .box {
+    padding: 20px;
+  }
+  .me{
+    height: 250px;
+    width: 200px;
+    margin-top: -50px;
+  }
+  .pull {position:relative; 
+    margin: 50px; 
+    padding: 40px; 
+    width:100px; 
+    height:50px; 
+    color: #FFF; 
+    border-radius: 10px; 
+    background-color: #000;
+    top: -100px;
+  }
+  
+  .date {
+    width: 30%;
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+  }
+
+  .pages {
+    margin: 0px;
+  }
+
+  /* topbar select pages */
+  span a{
+    font-size: x-large;
+    margin-right: 10px;
   }
 }
+
+

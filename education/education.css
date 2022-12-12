@@ -31,3 +31,22 @@ h3 {padding: 0;}
 li{
     list-style:none;
 }
+
+
+
+@media screen and (min-width: 400px) {
+    .date{
+        font-size: small;
+    }
+    .event-name{
+        font-size: small;
+    }
+}
+@media screen and (min-width: 1100px) {
+    .date{
+        font-size: large;
+    }
+    .event-name{
+        font-size: large;
+    }
+}

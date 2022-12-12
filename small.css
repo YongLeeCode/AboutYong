@@ -1,17 +1,17 @@
-@media (max-width: 40rem) {
+@media screen and (min-width: 400px) {
     .waves {
       height:40px;
       min-height:40px;
     }
     .content {
-      height:60vh;
+      height:30vh;
     }
 
     /* homepage image */
     .box {
       padding: 20px;
     }
-    img{
+    .me{
       height: 150px;
       width: 120px;
       margin-top: -50px;
@@ -32,6 +32,21 @@
       border-bottom: 1px solid #000;
       margin-bottom: 10px;
     }
-  }
+    
+    .pages {
+      margin: 30px;
+    }
+
+    /* logo */
+    div h1{
+      display: none;
+      margin-top: 50px;
+    }
+
+    span a{
+      font-size: small;
+      margin-right: 10px;
+    }
+}
 
 
