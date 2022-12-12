@@ -1,3 +1,3 @@
 # AboutYong
 
-(website)[https://yongleecode.github.io/AboutYong/home.html]
+(website)[https://yongleecode.github.io/AboutYong/index.html]
